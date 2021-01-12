@@ -1,10 +1,7 @@
 ﻿using CodingPlus.Core.Models.Pager;
 using CodingPlus.Core.Test.Helpers.Extensions;
-using NUnit.Framework;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using Xunit;
 
 namespace CodingPlus.Core.Test.Models.Pager
@@ -37,10 +34,10 @@ namespace CodingPlus.Core.Test.Models.Pager
             var results = parameters.Validate();
 
             // Assert
-            Assert.IsEmpty(results);
-            Assert.Equals(currentPage, parameters.CurrentPage);
-            Assert.Equals(maxPage, parameters.MaxPage);
-            Assert.Equals(pageSize, parameters.PageSize);
+            Assert.Empty(results);
+            Assert.Equal(currentPage, parameters.CurrentPage);
+            Assert.Equal(maxPage, parameters.MaxPage);
+            Assert.Equal(pageSize, parameters.PageSize);
         }
 
         /// <summary>
@@ -65,8 +62,8 @@ namespace CodingPlus.Core.Test.Models.Pager
             var results = parameters.Validate();
 
             // Assert
-            Assert.Equals(1, results.Count);
-            Assert.Equals("The CurrentPage field not is valid.", results.FirstOrDefault().ErrorMessage);
+            Assert.Equal(1, results.Count);
+            Assert.Equal("The CurrentPage field not is valid", results.FirstOrDefault().ErrorMessage);
         }
 
         /// <summary>
@@ -91,8 +88,8 @@ namespace CodingPlus.Core.Test.Models.Pager
             var results = parameters.Validate();
 
             // Assert
-            Assert.Equals(1, results.Count);
-            Assert.Equals("The MaxPage field not is valid.", results.FirstOrDefault().ErrorMessage);
+            Assert.Equal(1, results.Count);
+            Assert.Equal("The MaxPage field not is valid", results.FirstOrDefault().ErrorMessage);
         }
 
         /// <summary>
@@ -117,8 +114,8 @@ namespace CodingPlus.Core.Test.Models.Pager
             var results = parameters.Validate();
 
             // Assert
-            Assert.Equals(1, results.Count);
-            Assert.Equals("The PageSize field not is valid.", results.FirstOrDefault().ErrorMessage);
+            Assert.Equal(1, results.Count);
+            Assert.Equal("The PageSize field not is valid", results.FirstOrDefault().ErrorMessage);
         }
     }
 

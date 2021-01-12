@@ -1,0 +1,7 @@
+C:\repos\Personal\Microservices\CodingPlus\.vs\CodingPlus.Core\v16\lut\0\b\CodingPlus.Core\Debug\netcoreapp3.1\CodingPlus.Core.deps.json
+C:\repos\Personal\Microservices\CodingPlus\.vs\CodingPlus.Core\v16\lut\0\b\CodingPlus.Core\Debug\netcoreapp3.1\CodingPlus.Core.dll
+C:\repos\Personal\Microservices\CodingPlus\.vs\CodingPlus.Core\v16\lut\0\i\CodingPlus.Core\Debug\netcoreapp3.1\CodingPlus.Core.csprojAssemblyReference.cache
+C:\repos\Personal\Microservices\CodingPlus\.vs\CodingPlus.Core\v16\lut\0\i\CodingPlus.Core\Debug\netcoreapp3.1\CodingPlus.Core.AssemblyInfoInputs.cache
+C:\repos\Personal\Microservices\CodingPlus\.vs\CodingPlus.Core\v16\lut\0\i\CodingPlus.Core\Debug\netcoreapp3.1\CodingPlus.Core.AssemblyInfo.cs
+C:\repos\Personal\Microservices\CodingPlus\.vs\CodingPlus.Core\v16\lut\0\i\CodingPlus.Core\Debug\netcoreapp3.1\CodingPlus.Core.csproj.CopyComplete
+C:\repos\Personal\Microservices\CodingPlus\.vs\CodingPlus.Core\v16\lut\0\i\CodingPlus.Core\Debug\netcoreapp3.1\CodingPlus.Core.dll

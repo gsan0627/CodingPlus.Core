@@ -1,10 +1,7 @@
-﻿
-
-using CodingPlus.Core.Models.Pager;
+﻿using CodingPlus.Core.Models.Pager;
 using CodingPlus.Core.Test.Helpers.Context;
 using CodingPlus.Core.Test.Helpers.Extensions;
 using Microsoft.EntityFrameworkCore;
-using NUnit.Framework;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -126,8 +123,8 @@ namespace CodingPlus.Core.Test.Models.Pager
 
             // Assert
             this.AssertPager(TOTAL_ITEMS, currentPage, PAGE_SIZE, MAX_PAGES, pager, this.data);
-            Assert.Equals(currentPage - 5, pager.StartPage);
-            Assert.Equals(currentPage + 4, pager.EndPage);
+            Assert.Equal(currentPage - 5, pager.StartPage);
+            Assert.Equal(currentPage + 4, pager.EndPage);
         }
 
         /// <summary>
@@ -144,8 +141,8 @@ namespace CodingPlus.Core.Test.Models.Pager
 
             // Assert
             this.AssertPager(TOTAL_ITEMS, currentPage, PAGE_SIZE, MAX_PAGES, pager, this.data);
-            Assert.Equals(currentPage - 5, pager.StartPage);
-            Assert.Equals(currentPage + 4, pager.EndPage);
+            Assert.Equal(currentPage - 5, pager.StartPage);
+            Assert.Equal(currentPage + 4, pager.EndPage);
         }
 
         /// <summary>
@@ -198,15 +195,15 @@ namespace CodingPlus.Core.Test.Models.Pager
 
             maxPages = totalPages <= maxPages ? maxPages = totalPages : maxPages;
 
-            Assert.Equals(totalItems, pager.TotalItems);
-            Assert.Equals(currentPage, pager.CurrentPage);
-            Assert.Equals(pageSize, pager.PageSize);
-            Assert.Equals(totalPages, pager.TotalPages);
-            Assert.Equals(pager.Pages.Min(), pager.StartPage);
-            Assert.Equals(pager.Pages.Max(), pager.EndPage);
-            Assert.Equals(maxPages, pager.Pages.Count());
-            Assert.Equals(startIndex, pager.StartIndex);
-            Assert.Equals(endIndex, pager.EndIndex);
+            Assert.Equal(totalItems, pager.TotalItems);
+            Assert.Equal(currentPage, pager.CurrentPage);
+            Assert.Equal(pageSize, pager.PageSize);
+            Assert.Equal(totalPages, pager.TotalPages);
+            Assert.Equal(pager.Pages.Min(), pager.StartPage);
+            Assert.Equal(pager.Pages.Max(), pager.EndPage);
+            Assert.Equal(maxPages, pager.Pages.Count());
+            Assert.Equal(startIndex, pager.StartIndex);
+            Assert.Equal(endIndex, pager.EndIndex);
 
             foreach (var item in pager.Data)
             {
