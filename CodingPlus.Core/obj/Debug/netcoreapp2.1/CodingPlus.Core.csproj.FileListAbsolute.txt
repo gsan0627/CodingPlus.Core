@@ -1,0 +1,6 @@
+C:\repos\Personal\CodingPlus\CodingPlus.Core\CodingPlus.Core\obj\Debug\netcoreapp2.1\CodingPlus.Core.csprojAssemblyReference.cache
+C:\repos\Personal\CodingPlus\CodingPlus.Core\CodingPlus.Core\obj\Debug\netcoreapp2.1\CodingPlus.Core.csproj.CoreCompileInputs.cache
+C:\repos\Personal\CodingPlus\CodingPlus.Core\CodingPlus.Core\obj\Debug\netcoreapp2.1\CodingPlus.Core.AssemblyInfoInputs.cache
+C:\repos\Personal\CodingPlus\CodingPlus.Core\CodingPlus.Core\obj\Debug\netcoreapp2.1\CodingPlus.Core.AssemblyInfo.cs
+C:\repos\Personal\CodingPlus\CodingPlus.Core\CodingPlus.Core\bin\Debug\netcoreapp2.1\CodingPlus.Core.deps.json
+C:\repos\Personal\CodingPlus\CodingPlus.Core\CodingPlus.Core\bin\Debug\netcoreapp2.1\CodingPlus.Core.dll
