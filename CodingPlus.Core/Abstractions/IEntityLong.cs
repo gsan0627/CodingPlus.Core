@@ -8,7 +8,7 @@ namespace CodingPlus.Core.Abstractions
     /// Definicion para las entidades del patron repositorio
     /// </summary>
     /// <typeparam name="TUserKey">Tipo que identificara el usuario</typeparam>
-    interface IEntityLong<TUserKey> : IDtoBase<long, TUserKey>
+    public interface IEntityLong<TUserKey> : IEntityBase<long, TUserKey>
     {
     }
 }

@@ -1,0 +1,9 @@
+C:\repos\Personal\Microservices\CodingPlus\CodingPlus.Core\bin\Debug\netcoreapp3.1\CodingPlus.Core.deps.json
+C:\repos\Personal\Microservices\CodingPlus\CodingPlus.Core\bin\Debug\netcoreapp3.1\CodingPlus.Core.dll
+C:\repos\Personal\Microservices\CodingPlus\CodingPlus.Core\bin\Debug\netcoreapp3.1\CodingPlus.Core.pdb
+C:\repos\Personal\Microservices\CodingPlus\CodingPlus.Core\obj\Debug\netcoreapp3.1\CodingPlus.Core.csprojAssemblyReference.cache
+C:\repos\Personal\Microservices\CodingPlus\CodingPlus.Core\obj\Debug\netcoreapp3.1\CodingPlus.Core.AssemblyInfoInputs.cache
+C:\repos\Personal\Microservices\CodingPlus\CodingPlus.Core\obj\Debug\netcoreapp3.1\CodingPlus.Core.AssemblyInfo.cs
+C:\repos\Personal\Microservices\CodingPlus\CodingPlus.Core\obj\Debug\netcoreapp3.1\CodingPlus.Core.csproj.CoreCompileInputs.cache
+C:\repos\Personal\Microservices\CodingPlus\CodingPlus.Core\obj\Debug\netcoreapp3.1\CodingPlus.Core.dll
+C:\repos\Personal\Microservices\CodingPlus\CodingPlus.Core\obj\Debug\netcoreapp3.1\CodingPlus.Core.pdb

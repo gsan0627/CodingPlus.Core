@@ -34,8 +34,7 @@ namespace CodingPlus.Core.Abstractions
         /// <summary>
         /// Fecha de creacion del registro
         /// </summary>
-        public DateTime DateCreated { get; set; }     
-      
+        public DateTime DateCreated { get; set; } 
 
     }
 }

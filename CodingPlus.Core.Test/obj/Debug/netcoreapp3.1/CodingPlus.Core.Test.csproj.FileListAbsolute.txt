@@ -1,0 +1,4 @@
+C:\repos\Personal\Microservices\CodingPlus\CodingPlus.Core.Test\obj\Debug\netcoreapp3.1\CodingPlus.Core.Test.csprojAssemblyReference.cache
+C:\repos\Personal\Microservices\CodingPlus\CodingPlus.Core.Test\obj\Debug\netcoreapp3.1\CodingPlus.Core.Test.AssemblyInfoInputs.cache
+C:\repos\Personal\Microservices\CodingPlus\CodingPlus.Core.Test\obj\Debug\netcoreapp3.1\CodingPlus.Core.Test.AssemblyInfo.cs
+C:\repos\Personal\Microservices\CodingPlus\CodingPlus.Core.Test\obj\Debug\netcoreapp3.1\CodingPlus.Core.Test.csproj.CoreCompileInputs.cache

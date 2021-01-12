@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CodingPlus.Core.Abstractions;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
@@ -8,7 +9,7 @@ namespace CodingPlus.Core.Models.Pager
     /// <summary>
     /// Modelo que permita obtener los datos de la peticion para paginar lo datos
     /// </summary>
-    public class Parameters
+    public class Parameters : IDtoBase
     {
         /// <summary>
         /// PAgina actual

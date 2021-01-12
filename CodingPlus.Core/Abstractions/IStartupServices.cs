@@ -6,6 +6,9 @@ using System.Text;
 
 namespace CodingPlus.Core.Abstractions
 {
+    /// <summary>
+    /// Especificación del contrato para la administración de servicios personalizados en el SDK CodeDesignPlus
+    /// </summary>
     public interface IStartupService
     {
         /// <summary>
