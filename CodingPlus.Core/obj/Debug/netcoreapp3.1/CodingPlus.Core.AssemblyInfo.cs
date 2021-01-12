@@ -11,8 +11,10 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("CodingPlus.Core")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Gregory Sanchez")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyCopyrightAttribute("(©) CodingPlus. All rights reserved.")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute("Interfaces and models required for the different restrictions in the SDK")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("CodingPlus.Core")]

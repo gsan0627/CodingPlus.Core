@@ -14,6 +14,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution-Items", "Solution-Items", "{53040224-8E1A-4D9B-BCE4-88D29453BE9C}"
 	ProjectSection(SolutionItems) = preProject
 		git-version.yaml = git-version.yaml
+		LICENSE.MIT = LICENSE.MIT
 	EndProjectSection
 EndProject
 Global

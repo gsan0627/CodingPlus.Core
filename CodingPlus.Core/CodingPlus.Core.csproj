@@ -3,11 +3,29 @@
   <PropertyGroup>
     <ProjectGuid>3c2c99b5-eee7-4114-919e-7ad7a287bad7</ProjectGuid>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>Gregory Sanchez</Authors>
+    <Company />
+    <Description>Interfaces and models required for the different restrictions in the SDK</Description>
+    <Copyright>(©) CodingPlus. All rights reserved.</Copyright>
+    <PackageLicenseFile>LICENSE.MIT</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/gsan0627/CodingPlus.Core</PackageProjectUrl>
+    <PackageTags>CodingPlus Core SDK</PackageTags>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>..\..\docs\CSharp Doc\CodingPlus.Core.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="5.0.0" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE.MIT">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
