@@ -9,7 +9,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodingPlus.Core", "CodingPl
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{F2246348-EAA1-4FA4-B41A-26D6FE701F8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingPlus.Core.Test", "CodingPlus.Core.Test\CodingPlus.Core.Test.csproj", "{30533E86-209C-471C-AF12-B3666EA943F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodingPlus.Core.Test", "CodingPlus.Core.Test\CodingPlus.Core.Test.csproj", "{30533E86-209C-471C-AF12-B3666EA943F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution-Items", "Solution-Items", "{53040224-8E1A-4D9B-BCE4-88D29453BE9C}"
+	ProjectSection(SolutionItems) = preProject
+		git-version.yaml = git-version.yaml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
